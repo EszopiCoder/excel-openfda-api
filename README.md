@@ -2,10 +2,10 @@
 Purpose: Demonstrate openFDA API usage within the VBA framework
 
 
-This is an example of how to use the FDA's openFDA API. More information on the API is detailed here: https://open.fda.gov/
+This is an example of how to use the FDA's openFDA API. More information on the API is detailed [here](https://open.fda.gov/)
 
 
-The API returns a JSON script which is parsed using code found here: https://github.com/omegastripes/VBA-JSON-parser
+The API returns a JSON script which is parsed using code found [here](https://github.com/omegastripes/VBA-JSON-parser)
 
 
 The current file has two main subs:
@@ -13,4 +13,4 @@ The current file has two main subs:
 - `Sub resetSheet()` Resets the formatting and clears the active sheet
 
 
-The openSearchForm is an exact replica of the NDC directory tool found here: https://www.accessdata.fda.gov/scripts/cder/ndc/index.cfm
+The openSearchForm is an exact replica of the NDC directory tool found [here](https://www.accessdata.fda.gov/scripts/cder/ndc/index.cfm)
