@@ -14,3 +14,6 @@ The current file has two main subs:
 
 
 The openSearchForm is an exact replica of the NDC directory tool found [here](https://www.accessdata.fda.gov/scripts/cder/ndc/index.cfm)
+
+
+Note: The search field(s) do not support partial spelling
