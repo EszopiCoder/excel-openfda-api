@@ -3,7 +3,8 @@
 - Demonstrate [openFDA API](https://open.fda.gov/) usage within the VBA framework
 - Create a replica of the FDA's [NDC Directory](https://www.accessdata.fda.gov/scripts/cder/ndc/index.cfm)
 ## Compatibility
-Microsoft Excel 2010+ (OS must be able to support Regular Expression, Dictionary, and XMLHTTP objects)
+- Microsoft Excel 2010+ (OS must be able to support Regular Expression, Dictionary, and XMLHTTP objects)
+- Note: I have also translated this repository to Javascript for [Google Sheets](https://github.com/EszopiCoder/google-openfda-api)
 ## Installation
 1. Download 'NDC Directory.xlsm'
 2. Follow these [instructions](https://support.office.com/en-us/article/add-or-remove-add-ins-in-excel-0af570c4-5cf3-4fa9-9b88-403625a0b460) from Microsoft
