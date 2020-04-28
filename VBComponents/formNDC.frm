@@ -112,11 +112,11 @@ Private Sub btnSearch_Click()
     ' Run API
     If optFinished.Value = True Then
         Me.Hide
-        Call API_NDC_PullData(textSearch.Text, comboType.ListIndex, True, _
+        Call API_NDC_PullData_Dict(textSearch.Text, comboType.ListIndex, True, _
             ActiveWorkbook.Worksheets(comboSheet.ListIndex + 1))
     Else
         Me.Hide
-        Call API_NDC_PullData(textSearch.Text, comboType.ListIndex + 2, False, _
+        Call API_NDC_PullData_Dict(textSearch.Text, comboType.ListIndex + 2, False, _
             ActiveWorkbook.Worksheets(comboSheet.ListIndex + 1))
     End If
     
