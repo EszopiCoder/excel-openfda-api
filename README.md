@@ -9,7 +9,9 @@
 1. The openFDA API is called with the XMLHTTP object
 2. The XMLHTTP object returns a JSON script
 3. The JSON script is parsed using code found [here](https://github.com/omegastripes/VBA-JSON-parser)
-4. The parsed JSON script is reformatted to write to an Excel worksheet
+4. The parsed JSON script is reformatted and written to a dictionary object
+5. Steps 1-4 are repeated until all data is retrieved
+6. The dictionary object is copied to an array to write to an Excel worksheet
 ## Usage
 Download 'NDC Directory.xlsm'
 
